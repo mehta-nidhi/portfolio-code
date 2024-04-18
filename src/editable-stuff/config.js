@@ -63,7 +63,7 @@ const repos = {
   show: true,
   heading: <strong>Projects</strong>,
   gitHubUsername: "mehta-nidhi", //i.e."johnDoe12Gh"
-  reposLength: 5,
+  reposLength: 6,
   specificRepos: [],
 };
 
