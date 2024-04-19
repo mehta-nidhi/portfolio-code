@@ -12,9 +12,9 @@ const ExperienceCard = ({ data }) => {
         <p className="lead">
           <strong>{data.company}</strong>
           <br />
-          {data.role}
+          <span style={{ fontSize: "0.9em" }}>{data.role}</span> {/* Adjust font size here */}
           <br />
-          {data.date}
+          <span style={{ fontSize: "0.9em" }}>{data.date}</span> {/* Adjust font size here */}
         </p>
 
       </div>

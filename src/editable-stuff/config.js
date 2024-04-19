@@ -5,7 +5,7 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
+  gradientColors: "#4484ce,#82c0cc,#2e86ab,#1ad7c0,#70c1b3",
   firstName: "Nidhi",
   middleName: "",
   lastName: "Mehta",
@@ -49,8 +49,20 @@ const about = {
   heading: <strong>About Me</strong>,
   imageLink: require("../editable-stuff/nidhimehta.jpg"),
   imageSize: 375,
-  message:
-    "My name is Nidhi Mehta. My career path has traversed through UI/UX design, web design, and into the world of recruitment, balancing analytical precision with creative innovation. Each project I tackle is an exciting journey fueled by my passion for making designs that look great and are easy for users to use. Excited for new challenges, I'm committed to turning ideas into digital experiences that really connect with people.",
+  message:(
+    <>
+      <h4 style={{ fontSize: "1.5em" }}>Hi, I am Nidhi Mehta</h4>
+      <br></br>
+      <h5 style={{ fontSize: "1.0em" }}>UX/UI Designer based in Siegen, Germany.</h5>
+      <br></br>
+      <p>
+        With a career journey spanning UI/UX design, web development, and recruitment, I bring a unique blend of analytical precision and creative innovation. My passion lies in crafting seamless digital experiences that captivate audiences and enhance user engagement.
+      </p>
+      <p>
+        Driven by a commitment to excellence, I excel in blending creativity with technical proficiency. Specializing in HTML5, CSS3, and tools like Figma and Adobe Creative Cloud, I design visually stunning and responsive websites. My expertise extends to SEO techniques, ensuring user-friendly designs that elevate digital landscapes.
+      </p>
+    </>
+  ),
   resume: "https://drive.google.com/file/d/1B-jlaCHaC8adYo3FANw-8vKwFHS2eMMo/view?usp=drive_link",
 };
 
@@ -96,34 +108,28 @@ const skills = {
   show: true,
   heading: <strong>Skills</strong>,
   hardSkills: [
-    { name: "Adobe Creative Cloud", value: 95 },
-    { name: "Adobe XD", value: 80 },
-    { name: "HTML5", value: 90 },
-    { name: "CSS3", value: 90 },
-    { name: "JavaScript", value: 80 },
-    { name: "React", value: 80 },
-    { name: "Figma", value: 70 },
-    { name: "SCSS", value: 65 },
+    { name: "HTML / HTML5", value: 90 },
+    { name: "CSS, CSS3, SASS, SCSS", value: 90 },
+    { name: "JavaScript", value: 70 },
+    { name: "React", value: 70 },
+    { name: "Bootstrap", value: 70 },
+    { name: "XML", value: 65 },
   ],
   otherSkills: [
-    { name: "Adobe Creative Cloud", value: 95 },
+    { name: "Adobe Creative Cloud", value: 90 },
     { name: "Adobe XD", value: 80 },
-    { name: "HTML5", value: 90 },
-    { name: "CSS3", value: 90 },
-    { name: "JavaScript", value: 80 },
-    { name: "React", value: 80 },
-    { name: "Figma", value: 70 },
-    { name: "SCSS", value: 65 },
+    { name: "Figma", value: 90 },
+    { name: "Sketch", value: 70 },
+    { name: "Procreate", value: 90 },
+    { name: "CorelDRAW", value: 60 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "VS Code", value: 95 },
+    { name: "Git", value: 90 },
+    { name: "Github / Bitbucket", value: 90 },
+    { name: "CI / CD", value: 60 },
+    { name: "Google Ads and Analytics", value: 60 },
+    { name: "SEO / SEA", value: 60 },
   ],
 };
 

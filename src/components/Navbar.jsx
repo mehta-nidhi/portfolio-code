@@ -3,8 +3,9 @@ import { useScrollPosition } from "../hooks/useScrollPosition";
 import useResizeObserver from "../hooks/useResizeObserver";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import { mainBody, experiences, repos, about, skills, getInTouch } from "../editable-stuff/config.js";
+import { experiences, repos, about, skills, getInTouch } from "../editable-stuff/config.js";
 import { NavLink } from "./home/migration";
+import logo from "../editable-stuff/logo.png";
 
 const Navigation = React.forwardRef((props, ref) => {
   // const { showBlog, FirstName } = config;
@@ -38,13 +39,19 @@ const Navigation = React.forwardRef((props, ref) => {
         }`}
       expand="lg"
     >
-      <Navbar.Brand className="navbar-brand" href={process.env.PUBLIC_URL + "/#home"}>
-        {`<${mainBody.firstName} />`}
+      <Navbar.Brand className="navbar-brand d-flex align-items-center" href={process.env.PUBLIC_URL + "/#home"}>
+        <img
+          src={logo}
+          height="60"
+          className="d-inline-block align-top mr-3" 
+          alt="NIDHI MEHTA Logo"
+        />
+        <div className="mx-2">NIDHI MEHTA</div>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggler" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="navbar-nav mr-auto">
-          {/* {
+      <Nav className="navbar-nav" style={{ marginLeft: 'auto', marginRight: 'auto' }}> 
+          {/* {<Nav className="navbar-nav" style={{ marginLeft: 'auto' }}></Nav>
             <NavLink className="nav-item lead">
               <Link to={process.env.PUBLIC_URL + "/blog"}>Blog</Link>
             </NavLink>
