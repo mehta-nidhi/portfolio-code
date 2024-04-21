@@ -8,7 +8,7 @@ const Footer = (props) => {
     <footer style={bgStyle} className="mt-auto py-5 text-center ">
       <Container>
         {props.children}
-        <p className="font-weight-bold">MADE WITH <span class="heart">💙</span> BY Nidhi Mehta</p>
+        <p className="font-weight-bold">made with <span class="heart">💙</span> by <strong>NIDHI MEHTA</strong></p>
       </Container>
     </footer>
   );

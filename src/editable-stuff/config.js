@@ -16,16 +16,16 @@ const mainBody = {
       url: "https://github.com/mehta-nidhi",
     },
     {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/nidhi.thakker.37",
-    },
-    {
       image: "fa-instagram",
       url: "https://www.instagram.com/treasureandmr.bear/",
     },
     {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/nidhimehta4693/",
+    },
+    {
+      image: "fa-facebook",
+      url: "https://www.facebook.com/nidhi.thakker.37",
     },
   ],
 };
@@ -56,10 +56,10 @@ const about = {
       <h5 style={{ fontSize: "1.0em" }}>UX/UI Designer based in Siegen, Germany.</h5>
       <br></br>
       <p>
-        With a career journey spanning UI/UX design, web development, and recruitment, I bring a unique blend of analytical precision and creative innovation. My passion lies in crafting seamless digital experiences that captivate audiences and enhance user engagement.
+        With a career journey spanning UX/UI design, web development, and recruitment, I bring a unique blend of analytical precision and creative innovation. My passion lies in crafting seamless digital experiences that captivate audiences and enhance user engagement.
       </p>
       <p>
-        Driven by a commitment to excellence, I excel in blending creativity with technical proficiency. Specializing in HTML5, CSS3, and tools like Figma and Adobe Creative Cloud, I design visually stunning and responsive websites. My expertise extends to SEO techniques, ensuring user-friendly designs that elevate digital landscapes.
+        Driven by a commitment to excellence, I excel in blending creativity with technical proficiency. Specializing in HTML5, CSS3, and tools like Figma and Adobe Creative Cloud, I design visually appealing and responsive websites. My expertise extends to SEO techniques, ensuring user-friendly designs that elevate digital landscapes.
       </p>
     </>
   ),
@@ -138,7 +138,7 @@ const getInTouch = {
   show: true,
   heading: <strong>Get In Touch</strong>,
   message:
-    "I'm currently looking for full-time UX/UI or Graphics designing opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently looking for UX/UI or any designing opportunities! If you know of any positions available, have any questions, or if you just want to say hi, please feel free to email me at",
   email: "nidhisheryl@gmail.com",
 };
 
@@ -147,7 +147,7 @@ const experiences = {
   heading: <strong>Experience</strong>,
   data: [
     {
-      role: 'UI/UX Designer',
+      role: 'UX/UI Designer',
       company: 'eDataMine',
       companylogo: require('../assets/img/edatamine.png'),
       date: 'May 2020 – December 2022',
