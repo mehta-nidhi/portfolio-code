@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fe927caf.css",
+    "main.js": "/static/js/main.6315b8de.js",
+    "static/js/787.4b24f717.chunk.js": "/static/js/787.4b24f717.chunk.js",
+    "static/media/logo.png": "/static/media/logo.8de8e88abd87bb566b7a.png",
+    "static/media/nidhimehta.jpg": "/static/media/nidhimehta.151a3fd66f83e65eb47d.jpg",
+    "static/media/quantum.png": "/static/media/quantum.e0b7ef9df5faf101cff4.png",
+    "index.html": "/index.html",
+    "main.fe927caf.css.map": "/static/css/main.fe927caf.css.map",
+    "main.6315b8de.js.map": "/static/js/main.6315b8de.js.map",
+    "787.4b24f717.chunk.js.map": "/static/js/787.4b24f717.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe927caf.css",
+    "static/js/main.6315b8de.js"
+  ]
+}
