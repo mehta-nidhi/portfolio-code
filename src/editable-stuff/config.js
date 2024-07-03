@@ -148,6 +148,12 @@ const experiences = {
   data: [
     {
       role: 'UX/UI Designer',
+      company: 'August Infotech',
+      companylogo: require('../assets/img/august.png'),
+      date: 'November 2023 – Present',
+    },
+    {
+      role: 'UX/UI Designer',
       company: 'eDataMine',
       companylogo: require('../assets/img/edatamine.png'),
       date: 'May 2020 – December 2022',

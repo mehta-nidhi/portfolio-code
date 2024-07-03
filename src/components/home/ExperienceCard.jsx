@@ -1,12 +1,11 @@
 import React from 'react';
-
 import {
   Col,
 } from "react-bootstrap";
 
 const ExperienceCard = ({ data }) => {
   return (
-    <Col lg="6">
+    <Col lg="4">
       <div className="pb-5 text-center">
         <img className=" bg-white mb-3" src={data.companylogo} alt="" />
         <p className="lead">
@@ -16,7 +15,6 @@ const ExperienceCard = ({ data }) => {
           <br />
           <span style={{ fontSize: "0.9em" }}>{data.date}</span> {/* Adjust font size here */}
         </p>
-
       </div>
     </Col>
   );
