@@ -2,6 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Typist from 'react-typist-component';
 import { Jumbotron } from "./migration";
+import './app.css';
 
 const MainBody = React.forwardRef(
   ({ gradient, title, message, icons }, ref) => {
@@ -17,11 +18,11 @@ const MainBody = React.forwardRef(
       >
         <div id="stars"></div>
         <Container className="text-center">
-          <h1 ref={ref} className="display-1">
-            {title}
+          <h1 ref={ref} className="lead typist title-large-font">
+            <strong>{title}</strong>
           </h1>
           <Typist>
-            <div className="lead typist">
+            <div className="lead typist large-font">
               {message}
             </div>
           </Typist>

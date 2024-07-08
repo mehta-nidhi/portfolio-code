@@ -3,7 +3,7 @@ import { useScrollPosition } from "../hooks/useScrollPosition";
 import useResizeObserver from "../hooks/useResizeObserver";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import { experiences, repos, about, skills, getInTouch } from "../editable-stuff/config.js";
+import { experiences, repos, about, skills, getInTouch, portfolios } from "../editable-stuff/config.js";
 import { NavLink } from "./home/migration";
 import logo from "../editable-stuff/logo.png";
 
@@ -42,11 +42,11 @@ const Navigation = React.forwardRef((props, ref) => {
       <Navbar.Brand className="navbar-brand d-flex align-items-center" href={process.env.PUBLIC_URL + "/#home"}>
         <img
           src={logo}
-          height="60"
+          height="70"
           className="d-inline-block align-top mr-3" 
           alt="NIDHI MEHTA Logo"
         />
-        <div className="mx-2">NIDHI MEHTA</div>
+        {/* <div className="mx-2">NIDHI MEHTA</div> */}
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggler" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -61,7 +61,7 @@ const Navigation = React.forwardRef((props, ref) => {
               className="nav-item lead"
               href={process.env.PUBLIC_URL + "/#aboutme"}
             >
-              <strong>About</strong>
+              <strong>ABOUT</strong>
             </NavLink>
           )}
 
@@ -69,7 +69,7 @@ const Navigation = React.forwardRef((props, ref) => {
             <NavLink
               href={process.env.PUBLIC_URL + "/#experience"}
             >
-              <strong>Experience</strong>
+              <strong>EXPERIENCE</strong>
             </NavLink>
           )}
 
@@ -77,7 +77,7 @@ const Navigation = React.forwardRef((props, ref) => {
             <NavLink
               href={process.env.PUBLIC_URL + "/#projects"}
             >
-              <strong>Projects</strong>
+              <strong>PROJECTS</strong>
             </NavLink>
           )}
           <NavLink
@@ -86,15 +86,22 @@ const Navigation = React.forwardRef((props, ref) => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <strong>Resume</strong>
+            <strong>RESUME</strong>
           </NavLink>
+          {portfolios.show && (
+            <NavLink
+              href={process.env.PUBLIC_URL + "/#portfolio"}
+            >
+              <strong>PORTFOLIO</strong>
+            </NavLink>
+          )}
 
           {skills.show && (
             <NavLink
               className="nav-item lead"
               href={process.env.PUBLIC_URL + "/#skills"}
             >
-              <strong>Skills</strong>
+              <strong>SKILLS</strong>
             </NavLink>
           )}
 
@@ -103,7 +110,7 @@ const Navigation = React.forwardRef((props, ref) => {
               className="nav-item lead"
               href={process.env.PUBLIC_URL + "/#getInTouch"}
             >
-              <strong>Get In Touch</strong>
+              <strong>GET IN TOUCH</strong>
             </NavLink>
           )}
         </Nav>

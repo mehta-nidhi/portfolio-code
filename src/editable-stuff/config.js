@@ -6,9 +6,9 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce,#82c0cc,#2e86ab,#1ad7c0,#70c1b3",
-  firstName: "Nidhi",
+  firstName: "NIDHI",
   middleName: "",
-  lastName: "Mehta",
+  lastName: "MEHTA",
   message: " Designing the future, one pixel at a time! ",
   icons: [
     {
@@ -179,9 +179,63 @@ const experiences = {
   ]
 }
 
+const portfolios = {
+  show: true,
+  heading: <strong>Portfolio</strong>,
+  data: [
+    {
+      // text: 'Responsive E-Commerce Website',
+      portfolioTxt: 'E-Commerce Website',
+      portfolioImg: require('../assets/img/1.png'),
+      tag1: "Ecommerce 🛍️",
+      tag2: "Rebranding 🎀",
+      tag3: "Website 🌐"
+    },
+    {
+      // text: '',
+      portfolioTxt: 'Android App Design',
+      portfolioImg: require('../assets/img/2.jpg'),
+      tag1: "Android 🤖",
+      tag2: "Mobile App 📱",
+      tag3: "Research 💬 "
+    },
+    {
+      // text: '',
+      portfolioTxt: 'Restaurant Logo Design',
+      portfolioImg: require('../assets/img/logo.jpg'),
+      tag1: "Logo Design 🔖",
+      tag2: "Food 🍛",
+      tag3: "Restaurant 🏨"
+    },
+    {
+      // text: '',
+      portfolioTxt: 'Mobile App Icon',
+      portfolioImg: require('../assets/img/icon.jpg'),
+      tag1: "Icon Design ❄️",
+      tag2: "Apple iOs 🍏",
+      tag3: "Google Android 🤖"
+    },
+    {
+      // text: 'Web Design Intern',
+      portfolioTxt: 'Fitness IOS App',
+      portfolioImg: require('../assets/img/6.jpg'),
+      tag1: "Fitness 🚴",
+      tag2: "Add Feature 💖",
+      tag3: "End-to-End Mobile App 📱"
+    },
+    {
+      // text: '',
+      portfolioTxt: 'Doodle Art',
+      portfolioImg: require('../assets/img/5.png'),
+      tag1:"Cartoons 🐘",
+      tag2:"Calender 📆",
+      tag3:"Comics 📒"
+    },
+  ]
+}
 // Blog SECTION
 // const blog = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, portfolios };
