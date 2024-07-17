@@ -217,16 +217,16 @@ const portfolios = {
     },
     {
       // text: 'Web Design Intern',
-      portfolioTxt: 'Fitness IOS App',
-      portfolioImg: require('../assets/img/6.jpg'),
+      portfolioTxt: 'Fitness IOS App Wireframe',
+      portfolioImg: require('../assets/img/ios.jpg'),
       tag1: "Fitness 🚴",
       tag2: "Add Feature 💖",
-      tag3: "End-to-End Mobile App 📱"
+      tag3: "Mobile App 📱"
     },
     {
       // text: '',
       portfolioTxt: 'Doodle Art',
-      portfolioImg: require('../assets/img/5.png'),
+      portfolioImg: require('../assets/img/doodle.jpg'),
       tag1:"Cartoons 🐘",
       tag2:"Calender 📆",
       tag3:"Comics 📒"
