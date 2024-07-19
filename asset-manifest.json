@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.fe927caf.css",
-    "main.js": "/static/js/main.6315b8de.js",
+    "main.css": "/static/css/main.52ce5ec4.css",
+    "main.js": "/static/js/main.66936f69.js",
     "static/js/787.4b24f717.chunk.js": "/static/js/787.4b24f717.chunk.js",
+    "static/media/Ecommerce.png": "/static/media/Ecommerce.74e146490aa91c69669c.png",
+    "static/media/doodle.jpg": "/static/media/doodle.20d1c1357b58d59b6947.jpg",
+    "static/media/Android app.jpg": "/static/media/Android app.a63e33a9440b28e4d7c3.jpg",
     "static/media/logo.png": "/static/media/logo.8de8e88abd87bb566b7a.png",
+    "static/media/logo.jpg": "/static/media/logo.c1978f4b679f5ea6b0fb.jpg",
     "static/media/nidhimehta.jpg": "/static/media/nidhimehta.151a3fd66f83e65eb47d.jpg",
+    "static/media/ios.jpg": "/static/media/ios.a4b6bb8cd9b08d934c5e.jpg",
+    "static/media/icon.jpg": "/static/media/icon.29d793245aa200ef1ff0.jpg",
     "static/media/quantum.png": "/static/media/quantum.e0b7ef9df5faf101cff4.png",
     "index.html": "/index.html",
-    "main.fe927caf.css.map": "/static/css/main.fe927caf.css.map",
-    "main.6315b8de.js.map": "/static/js/main.6315b8de.js.map",
+    "main.52ce5ec4.css.map": "/static/css/main.52ce5ec4.css.map",
+    "main.66936f69.js.map": "/static/js/main.66936f69.js.map",
     "787.4b24f717.chunk.js.map": "/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe927caf.css",
-    "static/js/main.6315b8de.js"
+    "static/css/main.52ce5ec4.css",
+    "static/js/main.66936f69.js"
   ]
 }
