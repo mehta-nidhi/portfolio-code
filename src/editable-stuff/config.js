@@ -63,7 +63,7 @@ const about = {
       </p>
     </>
   ),
-  resume: "https://drive.google.com/file/d/1B-jlaCHaC8adYo3FANw-8vKwFHS2eMMo/view?usp=drive_link",
+  resume: "https://drive.google.com/file/d/1aPgzuXOQh7AX9Rhbbtcyfj9IveCDhCGG/view?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -186,18 +186,10 @@ const portfolios = {
     {
       // text: 'Responsive E-Commerce Website',
       portfolioTxt: 'E-Commerce Website',
-      portfolioImg: require('../assets/img/1.png'),
+      portfolioImg: require('../assets/img/Ecommerce.png'),
       tag1: "Ecommerce 🛍️",
       tag2: "Rebranding 🎀",
       tag3: "Website 🌐"
-    },
-    {
-      // text: '',
-      portfolioTxt: 'Android App Design',
-      portfolioImg: require('../assets/img/2.jpg'),
-      tag1: "Android 🤖",
-      tag2: "Mobile App 📱",
-      tag3: "Research 💬 "
     },
     {
       // text: '',
@@ -209,19 +201,19 @@ const portfolios = {
     },
     {
       // text: '',
+      portfolioTxt: 'Android App Design',
+      portfolioImg: require('../assets/img/Android app.jpg'),
+      tag1: "Android 🤖",
+      tag2: "Mobile App 📱",
+      tag3: "Research 💬 "
+    },
+    {
+      // text: '',
       portfolioTxt: 'Mobile App Icon',
       portfolioImg: require('../assets/img/icon.jpg'),
       tag1: "Icon Design ❄️",
       tag2: "Apple iOs 🍏",
       tag3: "Google Android 🤖"
-    },
-    {
-      // text: 'Web Design Intern',
-      portfolioTxt: 'Fitness IOS App Wireframe',
-      portfolioImg: require('../assets/img/ios.jpg'),
-      tag1: "Fitness 🚴",
-      tag2: "Add Feature 💖",
-      tag3: "Mobile App 📱"
     },
     {
       // text: '',
@@ -230,6 +222,14 @@ const portfolios = {
       tag1:"Cartoons 🐘",
       tag2:"Calender 📆",
       tag3:"Comics 📒"
+    },
+    {
+      // text: 'Web Design Intern',
+      portfolioTxt: 'Fitness IOS App Wireframe',
+      portfolioImg: require('../assets/img/ios.jpg'),
+      tag1: "Fitness 🚴",
+      tag2: "Add Feature 💖",
+      tag3: "Mobile App 📱"
     },
   ]
 }
