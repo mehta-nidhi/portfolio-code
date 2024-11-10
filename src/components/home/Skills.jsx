@@ -34,7 +34,7 @@ const Skills = React.forwardRef(({ heading, hardSkills, otherSkills, softSkills 
           <Tab
             tabClassName="skills-tab lead"
             eventKey="hard-skills"
-            title="Programming Languages"
+            title="UI Design Skills"
           >
             <Row className="pt-3 px-1">
               <SkillsTab skills={hardSkills} isScrolled={isScrolled} />
@@ -43,7 +43,7 @@ const Skills = React.forwardRef(({ heading, hardSkills, otherSkills, softSkills 
           <Tab
             tabClassName="skills-tab lead"
             eventKey="other-skills"
-            title="Design Tools"
+            title="UX Skills"
           >
             <Row className="pt-3 px-1">
               <SkillsTab skills={otherSkills} isScrolled={isScrolled} />
@@ -52,7 +52,7 @@ const Skills = React.forwardRef(({ heading, hardSkills, otherSkills, softSkills 
           <Tab
             tabClassName="skills-tab lead"
             eventKey="soft-skills"
-            title="Development Tools"
+            title="Tech Skills"
           >
             <Row className="pt-3 px-1">
               <SkillsTab skills={softSkills} isScrolled={isScrolled} />

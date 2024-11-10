@@ -9,23 +9,23 @@ const mainBody = {
   firstName: "NIDHI",
   middleName: "",
   lastName: "MEHTA",
-  message: " Designing the future, one pixel at a time! ",
+  message: " Designing the future, one pixel at a time! ✏️",
   icons: [
     {
-      image: "fa-github",
-      url: "https://github.com/mehta-nidhi",
+      image: "fa-linkedin",
+      url: "https://www.linkedin.com/in/nidhimehta4693/",
     },
     {
       image: "fa-instagram",
       url: "https://www.instagram.com/treasureandmr.bear/",
     },
     {
-      image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/nidhimehta4693/",
+      image: "fa-medium",
+      url: "https://medium.com/@nidhisheryl",
     },
     {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/nidhi.thakker.37",
+      image: "fa-github",
+      url: "https://github.com/mehta-nidhi",
     },
   ],
 };
@@ -53,17 +53,17 @@ const about = {
     <>
       <h4 style={{ fontSize: "1.5em" }}>Hi, I am Nidhi Mehta</h4>
       <br></br>
-      <h5 style={{ fontSize: "1.0em" }}>UX/UI Designer based in Siegen, Germany.</h5>
+      <h5 style={{ fontSize: "1.0em" }}>UX/UI Product Designer based in Germany.</h5>
       <br></br>
       <p>
-        With a career journey spanning UX/UI design, web development, and recruitment, I bring a unique blend of analytical precision and creative innovation. My passion lies in crafting seamless digital experiences that captivate audiences and enhance user engagement.
+        My journey started in web design and evolved through digital marketing and talent acquisition, ultimately leading me to UX/UI design—my true passion. Currently, I’m honing my skills at the UX/UI Product Design Bootcamp, mastering Figma, prototyping, and user research to bring ideas to life.
       </p>
       <p>
-        Driven by a commitment to excellence, I excel in blending creativity with technical proficiency. Specializing in HTML5, CSS3, and tools like Figma and Adobe Creative Cloud, I design visually appealing and responsive websites. My expertise extends to SEO techniques, ensuring user-friendly designs that elevate digital landscapes.
+      I specialize in tools like Figma, Adobe Creative Cloud, and have foundational knowledge of HTML and CSS, enabling effective communication with developers for design accuracy. I am committed to creating seamless, user-friendly experiences and am eager to join a dynamic team to contribute and make a meaningful impact.
       </p>
     </>
   ),
-  resume: "https://drive.google.com/file/d/1aPgzuXOQh7AX9Rhbbtcyfj9IveCDhCGG/view?usp=sharing",
+  resume: "https://drive.google.com/",
 };
 
 // PROJECTS SECTION
@@ -71,13 +71,13 @@ const about = {
 //      i.e: reposLength: 0,
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
-const repos = {
-  show: true,
-  heading: <strong>Projects</strong>,
-  gitHubUsername: "mehta-nidhi", //i.e."johnDoe12Gh"
-  reposLength: 6,
-  specificRepos: [],
-};
+// const repos = {
+//   show: true,
+//   heading: <strong>Projects</strong>,
+//   gitHubUsername: "mehta-nidhi", //i.e."johnDoe12Gh"
+//   reposLength: 6,
+//   specificRepos: [],
+// };
 
 // Leadership SECTION
 const leadership = {
@@ -108,28 +108,36 @@ const skills = {
   show: true,
   heading: <strong>Skills</strong>,
   hardSkills: [
-    { name: "HTML / HTML5", value: 90 },
-    { name: "CSS, CSS3, SASS, SCSS", value: 90 },
-    { name: "JavaScript", value: 70 },
-    { name: "React", value: 70 },
-    { name: "Bootstrap", value: 70 },
-    { name: "XML", value: 65 },
+    { name: "Design Systems & Style Guides", value: 95 },
+    { name: "Typography", value: 90 },
+    { name: "Interaction Design", value: 70 },
+    { name: "Responsive & Adaptive Design", value: 70 },
+    { name: "High-Fidelity Prototyping", value: 70 },
+    { name: "Color Theory & Iconography", value: 65 },
+    { name: "Branding & Identity Design", value: 70 },
+    { name: "Prototype Testing & Iteration", value: 70 },
+    { name: "Skeuomorphism Design", value: 65 },
+    { name: "Grid Systems", value: 65 },
   ],
   otherSkills: [
-    { name: "Adobe Creative Cloud", value: 90 },
-    { name: "Adobe XD", value: 80 },
-    { name: "Figma", value: 90 },
-    { name: "Sketch", value: 70 },
-    { name: "Procreate", value: 90 },
-    { name: "CorelDRAW", value: 60 },
+    { name: "User Research & Analysis", value: 90 },
+    { name: "User Personas & Scenarios", value: 80 },
+    { name: "Journey Map & Storyboard", value: 90 },
+    { name: "Wireframing & Low-Fidelity Prototyping", value: 90 },
+    { name: "Information Architecture", value: 65 },
+    { name: "Card Sorting", value: 62 },
+    { name: "Usability Testing & User Testing", value: 70 },
+    { name: "Agile & Lean UX", value: 75 },
+    { name: "Heuristic Evaluation", value: 66 },
+    { name: "Competitive Analysis", value: 78 },
   ],
   softSkills: [
-    { name: "VS Code", value: 95 },
-    { name: "Git", value: 90 },
+    { name: "Figma, Sketch, Adobe XD", value: 95 },
+    { name: "HTML/CSS (Front-End Skills)", value: 90 },
+    { name: "Adobe Creative Suite (Photoshop, Illustrator)", value: 90 },
     { name: "Github / Bitbucket", value: 90 },
-    { name: "CI / CD", value: 60 },
-    { name: "Google Ads and Analytics", value: 60 },
-    { name: "SEO / SEA", value: 60 },
+    { name: "Google Analytics", value: 60 },
+    { name: "Motion Design", value: 60 },
   ],
 };
 
@@ -146,12 +154,12 @@ const experiences = {
   show: true,
   heading: <strong>Experience</strong>,
   data: [
-    {
-      role: 'UX/UI Designer',
-      company: 'August Infotech',
-      companylogo: require('../assets/img/august.png'),
-      date: 'November 2023 – Present',
-    },
+    // {
+    //   role: 'UX/UI Designer',
+    //   company: 'August Infotech',
+    //   companylogo: require('../assets/img/august.png'),
+    //   date: 'November 2023 – Present',
+    // },
     {
       role: 'UX/UI Designer',
       company: 'eDataMine',
@@ -181,7 +189,7 @@ const experiences = {
 
 const portfolios = {
   show: true,
-  heading: <strong>Portfolio</strong>,
+  heading: <strong>Projects</strong>,
   data: [
     {
       // text: 'Responsive E-Commerce Website',
@@ -233,9 +241,41 @@ const portfolios = {
     },
   ]
 }
+
+const casestudies = {
+  show: true,
+  heading: <strong>Case Studies</strong>,  // Updated heading
+  data: [
+    {
+      portfolioTxt: 'Coming Soon..',
+      portfolioImg: require('../assets/img/medium.png'),
+      // tag1: "Ecommerce 🛍️",
+      // tag2: "Rebranding 🎀",
+      // tag3: "Website 🌐",
+      redirectUrl: "https://medium.com/@nidhisheryl"
+    },
+    {
+      portfolioTxt: 'Coming Soon..',
+      portfolioImg: require('../assets/img/medium.png'),
+      // tag1: "Logo Design 🔖",
+      // tag2: "Food 🍛",
+      // tag3: "Restaurant 🏨",
+      redirectUrl: "https://medium.com/@nidhisheryl"
+    },
+    {
+      portfolioTxt: 'Coming Soon..',
+      portfolioImg: require('../assets/img/medium.png'),
+      // tag1: "Android 🤖",
+      // tag2: "Mobile App 📱",
+      // tag3: "Research 💬",
+      redirectUrl: "https://medium.com/@nidhisheryl"
+    },
+    // Add more case studies as needed
+  ]
+};
 // Blog SECTION
 // const blog = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, portfolios };
+export { navBar, mainBody, about, skills, leadership, getInTouch, experiences, casestudies, portfolios };
