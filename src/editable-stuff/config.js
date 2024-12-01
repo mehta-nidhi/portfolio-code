@@ -63,7 +63,7 @@ const about = {
       </p>
     </>
   ),
-  resume: "https://drive.google.com/",
+  // resume: "https://drive.google.com/",
 };
 
 // PROJECTS SECTION
@@ -108,37 +108,16 @@ const skills = {
   show: true,
   heading: <strong>Skills</strong>,
   hardSkills: [
-    { name: "Design Systems & Style Guides", value: 95 },
-    { name: "Typography", value: 90 },
-    { name: "Interaction Design", value: 70 },
-    { name: "Responsive & Adaptive Design", value: 70 },
-    { name: "High-Fidelity Prototyping", value: 70 },
-    { name: "Color Theory & Iconography", value: 65 },
-    { name: "Branding & Identity Design", value: 70 },
-    { name: "Prototype Testing & Iteration", value: 70 },
-    { name: "Skeuomorphism Design", value: 65 },
-    { name: "Grid Systems", value: 65 },
+    { name: "Figma", icon: "FaFigma" },
+    { name: "Adobe XD", icon: "SiAdobexd" },
+    { name: "Indesign", icon: "SiAdobeindesign" },
+    { name: "Illustrator", icon: "SiAdobeillustrator" },
+    { name: "Photoshop", icon: "SiAdobephotoshop" },
+    { name: "HTML", icon: "FaHtml5" },
+    { name: "CSS", icon: "FaCss3" },
   ],
-  otherSkills: [
-    { name: "User Research & Analysis", value: 90 },
-    { name: "User Personas & Scenarios", value: 80 },
-    { name: "Journey Map & Storyboard", value: 90 },
-    { name: "Wireframing & Low-Fidelity Prototyping", value: 90 },
-    { name: "Information Architecture", value: 65 },
-    { name: "Card Sorting", value: 62 },
-    { name: "Usability Testing & User Testing", value: 70 },
-    { name: "Agile & Lean UX", value: 75 },
-    { name: "Heuristic Evaluation", value: 66 },
-    { name: "Competitive Analysis", value: 78 },
-  ],
-  softSkills: [
-    { name: "Figma, Sketch, Adobe XD", value: 95 },
-    { name: "HTML/CSS (Front-End Skills)", value: 90 },
-    { name: "Adobe Creative Suite (Photoshop, Illustrator)", value: 90 },
-    { name: "Github / Bitbucket", value: 90 },
-    { name: "Google Analytics", value: 60 },
-    { name: "Motion Design", value: 60 },
-  ],
+  otherSkills: [],
+  softSkills: [],
 };
 
 // GET IN TOUCH SECTION
@@ -182,85 +161,85 @@ const experiences = {
       role: 'Web Design Intern',
       company: 'Jazz Branding, India',
       companylogo: require('../assets/img/jazz.jpg'),
-      date: 'December 2016 – November 2019',
+      date: 'October 2014 – March 2015',
     },
   ]
 }
 
-const portfolios = {
-  show: true,
-  heading: <strong>Projects</strong>,
-  data: [
-    {
-      // text: 'Responsive E-Commerce Website',
-      portfolioTxt: 'E-Commerce Website',
-      portfolioImg: require('../assets/img/Ecommerce.png'),
-      tag1: "Ecommerce 🛍️",
-      tag2: "Rebranding 🎀",
-      tag3: "Website 🌐"
-    },
-    {
-      // text: '',
-      portfolioTxt: 'Restaurant Logo Design',
-      portfolioImg: require('../assets/img/logo.jpg'),
-      tag1: "Logo Design 🔖",
-      tag2: "Food 🍛",
-      tag3: "Restaurant 🏨"
-    },
-    {
-      // text: '',
-      portfolioTxt: 'Android App Design',
-      portfolioImg: require('../assets/img/Android app.jpg'),
-      tag1: "Android 🤖",
-      tag2: "Mobile App 📱",
-      tag3: "Research 💬 "
-    },
-    {
-      // text: '',
-      portfolioTxt: 'Mobile App Icon',
-      portfolioImg: require('../assets/img/icon.jpg'),
-      tag1: "Icon Design ❄️",
-      tag2: "Apple iOs 🍏",
-      tag3: "Google Android 🤖"
-    },
-    {
-      // text: '',
-      portfolioTxt: 'Doodle Art',
-      portfolioImg: require('../assets/img/doodle.jpg'),
-      tag1:"Cartoons 🐘",
-      tag2:"Calender 📆",
-      tag3:"Comics 📒"
-    },
-    {
-      // text: 'Web Design Intern',
-      portfolioTxt: 'Fitness IOS App Wireframe',
-      portfolioImg: require('../assets/img/ios.jpg'),
-      tag1: "Fitness 🚴",
-      tag2: "Add Feature 💖",
-      tag3: "Mobile App 📱"
-    },
-  ]
-}
+// const portfolios = {
+//   show: true,
+//   heading: <strong>Projects</strong>,
+//   data: [
+//     {
+//       // text: 'Responsive E-Commerce Website',
+//       portfolioTxt: 'E-Commerce Website',
+//       portfolioImg: require('../assets/img/Ecommerce.png'),
+//       tag1: "Ecommerce 🛍️",
+//       tag2: "Rebranding 🎀",
+//       tag3: "Website 🌐"
+//     },
+//     {
+//       // text: '',
+//       portfolioTxt: 'Restaurant Logo Design',
+//       portfolioImg: require('../assets/img/logo.jpg'),
+//       tag1: "Logo Design 🔖",
+//       tag2: "Food 🍛",
+//       tag3: "Restaurant 🏨"
+//     },
+//     {
+//       // text: '',
+//       portfolioTxt: 'Android App Design',
+//       portfolioImg: require('../assets/img/Android app.jpg'),
+//       tag1: "Android 🤖",
+//       tag2: "Mobile App 📱",
+//       tag3: "Research 💬 "
+//     },
+//     {
+//       // text: '',
+//       portfolioTxt: 'Mobile App Icon',
+//       portfolioImg: require('../assets/img/icon.jpg'),
+//       tag1: "Icon Design ❄️",
+//       tag2: "Apple iOs 🍏",
+//       tag3: "Google Android 🤖"
+//     },
+//     {
+//       // text: '',
+//       portfolioTxt: 'Doodle Art',
+//       portfolioImg: require('../assets/img/doodle.jpg'),
+//       tag1:"Cartoons 🐘",
+//       tag2:"Calender 📆",
+//       tag3:"Comics 📒"
+//     },
+//     {
+//       // text: 'Web Design Intern',
+//       portfolioTxt: 'Fitness IOS App Wireframe',
+//       portfolioImg: require('../assets/img/ios.jpg'),
+//       tag1: "Fitness 🚴",
+//       tag2: "Add Feature 💖",
+//       tag3: "Mobile App 📱"
+//     },
+//   ]
+// }
 
 const casestudies = {
   show: true,
-  heading: <strong>Case Studies</strong>,  // Updated heading
+  heading: <strong>Project Case Studies</strong>,  // Updated heading
   data: [
     {
-      portfolioTxt: 'Coming Soon..',
-      portfolioImg: require('../assets/img/medium.png'),
+      portfolioTxt: 'Accessibility Dating App',
+      portfolioImg: require('../assets/img/ah.jpg'),
       // tag1: "Ecommerce 🛍️",
       // tag2: "Rebranding 🎀",
       // tag3: "Website 🌐",
-      redirectUrl: "https://medium.com/@nidhisheryl"
+      redirectUrl: "https://medium.com/@nidhisheryl/autumnhearts-accessible-dating-platform-for-singles-over-60-355f80e9e269"
     },
     {
-      portfolioTxt: 'Coming Soon..',
-      portfolioImg: require('../assets/img/medium.png'),
+      portfolioTxt: 'Redesigning the Flower Shop Website and App',
+      portfolioImg: require('../assets/img/flowershop.jpg'),
       // tag1: "Logo Design 🔖",
       // tag2: "Food 🍛",
       // tag3: "Restaurant 🏨",
-      redirectUrl: "https://medium.com/@nidhisheryl"
+      redirectUrl: "https://medium.com/@nidhisheryl/petals-and-pixels-redesigning-holland-blumen-a-modern-web-and-app-experience-for-flower-lovers-b3c1e680fbe0"
     },
     {
       portfolioTxt: 'Coming Soon..',
@@ -278,4 +257,4 @@ const casestudies = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, skills, leadership, getInTouch, experiences, casestudies, portfolios };
+export { navBar, mainBody, about, skills, leadership, getInTouch, experiences, casestudies};

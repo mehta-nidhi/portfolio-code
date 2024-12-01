@@ -13,7 +13,10 @@ const CaseStudyCard = ({ data }) => {
           </a>
         </div>
         <p className="lead">
-          <strong style={{ fontSize: "1.1em" }}>{data.portfolioTxt}</strong>
+          {/* Wrap the text with a clickable link */}
+          <a href={data.redirectUrl} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+            <strong style={{ fontSize: "1.1em" }}>{data.portfolioTxt}</strong>
+          </a>
           <br />
           {/* <span className="tag-label">{data.tag1}</span>
           <span className="tag-label">{data.tag2}</span>

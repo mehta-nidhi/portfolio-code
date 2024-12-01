@@ -9,7 +9,7 @@ import {
   skills,
   getInTouch,
   experiences,
-  portfolios,
+  // portfolios,
   casestudies,
 } from "./editable-stuff/config.js";
 import MainBody from "./components/home/MainBody";
@@ -23,7 +23,7 @@ import Skills from "./components/home/Skills";
 import GetInTouch from "./components/home/GetInTouch.jsx";
 import Leadership from "./components/home/Leadership.jsx";
 import Experience from "./components/home/Experience";
-import Portfolio from "./components/home/Portfolio";
+// import Portfolio from "./components/home/Portfolio";
 import CaseStudies from "./components/home/CaseStudies";
 
 const Home = React.forwardRef((props, ref) => {
@@ -58,11 +58,11 @@ const Home = React.forwardRef((props, ref) => {
           specfic={repos.specificRepos}
         />
       )} */}
-      {
+      {/* {
         portfolios.show && (
           <Portfolio portfolios={portfolios}/>
         )
-      }
+      } */}
       {
         casestudies.show && (
           <CaseStudies casestudies={casestudies}/>
